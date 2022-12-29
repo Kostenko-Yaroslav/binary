@@ -88,3 +88,42 @@ body {
     justify-content: center;
     padding-top: 75px;
 }
+
+/* Content
+================*/
+
+.content {
+    background-color: #fff;
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.menu {
+	display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+
+}
+
+.menu li a:hover {
+	color: rgb(195, 186, 157);
+}
+
+.menu li {
+	margin-right: 50px;
+}
+
+.content__line {
+    background-color: rgba(195, 186, 157, 0.75);
+    width: 100%;
+    height: 1px;
+    margin: 0 auto;
+}
