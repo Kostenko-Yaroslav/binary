@@ -94,7 +94,7 @@ body {
 
 .content {
     background-color: #fff;
-    height: 100vh;
+   
     padding-top: 1px;
 }
 
@@ -126,4 +126,41 @@ body {
     width: 100%;
     height: 1px;
     margin: 0 auto;
+}
+
+/* About
+================*/
+
+.about {
+    background-color: #fff;
+    color: black;
+}
+
+.about__intro {
+    display: flex;
+    font-size: 34px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.about__line {
+    background-color: rgb(0, 0, 0);
+    width: 105px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.about__text {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.about__row {
+    display: flex;
+    flex-direction: row;
+}
+.item-about {
+   text-align: center;
 }
