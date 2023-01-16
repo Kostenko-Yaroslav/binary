@@ -132,9 +132,10 @@ body {
 ================*/
 
 .about {
-    margin-top: 100px;
+    margin-top: 130px;
     background-color: #fff;
     color: black;
+    height: 60vh;
 }
 
 .about__intro {
@@ -176,4 +177,33 @@ body {
     color: rgb(195, 186, 157);
     font-weight: 300;
     width: 300px;
+}
+
+/* PORTFOLIO
+================*/
+
+.portfolio {
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.portfolio__intro {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.portfolio__line {
+    background-color: rgb(0, 0, 0);
+    width: 105px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.portfolio__content {
+
+   
+    padding-top: 30px;
 }
