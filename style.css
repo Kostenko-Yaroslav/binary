@@ -257,3 +257,72 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+
+/* Contact
+================*/
+
+.contact__intro {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.contact__line {
+    background-color: rgb(0, 0, 0);
+    width: 105px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+/* Footer
+================*/
+
+footer {
+    background-color: #3c3c3c;
+    height: 35vh;
+}
+
+.footer__img {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.footer__text {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #666565;
+    font-weight: normal;
+}
+
+.footer__content {
+    padding-top: 45px;
+}
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+
+.footer__menu li a {
+	font-size: 14px;
+	letter-spacing: 0.1em;
+    text-decoration: none;
+    color: rgb(179, 177, 177);
+
+}
+
+.footer__menu li a:hover {
+	color: rgb(195, 186, 157);
+}
+
+.footer__menu li {
+	margin-right: 25px;
+}
