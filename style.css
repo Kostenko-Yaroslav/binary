@@ -21,6 +21,18 @@ body {
     margin: 0px auto;
 }
 
+.portfolio__container {
+    width: 100%;
+    max-width: 1102px;
+    margin: 0px auto;
+}
+
+.partners__container {
+    width: 100%;
+    max-width: 745px;
+    margin: 0px auto;
+}
+
 /* Intro
 ================*/
 
@@ -183,7 +195,7 @@ body {
 ================*/
 
 .portfolio {
-    height: 170vh;
+    height: 172vh;
     background-color: #f3f3f3;
 }
 
@@ -207,6 +219,7 @@ body {
 
    
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .portfolio__warp {
@@ -232,7 +245,7 @@ body {
         text-decoration: none;
         color: rgb(0, 0, 0);
         margin: 0 auto;
-        margin-top: s30px;
+        margin-top: 65px;
 }
 
 /* Partners
@@ -245,12 +258,12 @@ body {
 }
 
 .partners__intro {
-    text-transform: uppercase;
     display: flex;
     justify-content: center;
     padding-top: 75px;
-    padding-bottom: 10px;
-    color: black;
+    padding-bottom: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 390;
 }
 
 .partners__warp {
@@ -275,6 +288,32 @@ body {
     width: 105px;
     height: 2px;
     margin: 0 auto;
+}
+
+.contact__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__name {
+    color: black;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.contact__span {
+    font-weight: 900;
+}
+
+.contact__text {
+    color: black;
+    width: 290px;
+    margin-bottom: 40px;
+}
+
+.contact__email {
+    color: black;
+    margin-bottom: 15px;
 }
 
 /* Footer
