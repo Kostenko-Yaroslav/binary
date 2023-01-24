@@ -274,6 +274,10 @@ body {
 /* Contact
 ================*/
 
+.contact {
+    height: 70vh;
+}
+
 .contact__intro {
     text-transform: uppercase;
     display: flex;
@@ -293,6 +297,7 @@ body {
 .contact__body {
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .contact__name {
@@ -313,7 +318,49 @@ body {
 
 .contact__email {
     color: black;
-    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contact__left {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 380px;
+}
+
+.form__title {
+    color: black;
+    font-size: 14px;
+}
+
+.form__input {
+    height: 40px;
+    width: 160px;
+    border-top: 1px solid black;
+    border-right: #fff;
+    border-left: #fff;
+    border-bottom: #fff;
+    background-color: #f8f7f7;
+}
+
+.form__input__mes {
+    height: 120px;
+    width: 380px;
+    border-top: 1px solid black;
+    border-right: #fff;
+    border-left: #fff;
+    border-bottom: #fff;
+    background-color: #f8f7f7;
+}
+
+.contact__send {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    margin-left: auto;
+    margin-top: 40px;
+    font-weight: 700;
 }
 
 /* Footer
