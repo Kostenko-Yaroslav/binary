@@ -412,3 +412,28 @@ footer {
 .footer__menu li {
 	margin-right: 25px;
 }
+
+/* Responsive starts here */
+
+@media screen and (max-width: 1080px) {
+	.portfolio__warp {
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio {
+        height: 290vh;
+    }
+}
+
+@media screen and (max-width: 910px) {
+	.about__text {
+        width: 616px;
+    }
+    .about__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about {
+        height: 80vh;
+    }
+}
