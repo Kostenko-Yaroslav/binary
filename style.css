@@ -437,3 +437,34 @@ footer {
         height: 80vh;
     }
 }
+
+@media screen and (max-width: 680px) {
+	.contact__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact {
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 625px) {
+	.about {
+        height: 102vh;
+    }
+    .about__text {
+        width: 406px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+	.portfolio__img {
+        height: 300px;
+        width: 402px;
+    }
+
+    .portfolio {
+        height: 255vh;
+    }
+}
